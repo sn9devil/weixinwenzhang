@@ -4,7 +4,7 @@ REDIS_PORT = 6379
 
 REDIS_PASSWORD = None
 
-REDIS_KEY = 'weixin'
+REDIS_KEY = 'weixin_request'
 
 PROXY_POOL_URL = 'http://127.0.0.1:5555/random'
 

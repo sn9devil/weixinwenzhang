@@ -10,7 +10,7 @@ class MySQL():
         except pymysql.MySQLError as e:
             print(e.args)
 
-    def insert(self, table, data):
+    def MaxRetryErrorinsert(self, table, data):
         """
         插入数据
         :param table:
@@ -27,4 +27,3 @@ class MySQL():
             print(e.args)
             self.db.rollback()
 
-    
